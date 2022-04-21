@@ -1,3 +1,2 @@
-# RIS-live
-
-RIS Live is near-realtime access to the data collected by RIS. It's documentation can be found here: https://ris-live.ripe.net/manual/
+# RIS Live
+RIS Live provides near-realtime streaming access to the data collected by RIS. Documentation can be found here: https://ris-live.ripe.net/manual/
