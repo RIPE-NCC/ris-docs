@@ -8,7 +8,7 @@
     <ClientOnly>
       <ripe-header open logo="ris" lighttheme homeurl="/docs/">
 		<svg slot="logo-app" version="1.1" height="34px" width="181" id="svglogo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 3183.1 594.8" style="enable-background:new 0 0 3183.1 594.8;" xml:space="preserve">
+	 viewBox="0 0 3183.1 594.8" style="enable-background:new 0 0 3183.1 594.8;opacity:0;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
 	.st1{fill:#26306A;}

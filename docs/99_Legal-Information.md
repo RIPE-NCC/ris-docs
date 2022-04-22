@@ -3,4 +3,4 @@ title: Legal Information
 ---
 #
 
-<legal-accordion appname="stat" id="legal-accordion"></legal-accordion>
+<legal-accordion appname="ris" id="legal-accordion"></legal-accordion>
