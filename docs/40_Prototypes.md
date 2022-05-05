@@ -14,18 +14,18 @@ Per-peer dump files are available through the REST interface at base URL https:/
 
 Returns list of objects with links to individual RRC's dumps. 
 
-| __Request__           |                  | 
+| __Request__           |                  |
 |-----------------------|------------------|
 | Relative path         | /                |
 | Methods               | GET              |
 | Response Content-type | application/json |
 
-| __Resource's fields__ |                   | 
+| __Resource's fields__ |                   |
 |-----------------------|-------------------|
 | `name`                | Resource name     |
 | `href`                | Resource location |
 
-<RestRepl :baseUrl="https://www.ris.ripe.net/dumps-per-peer-rest/prototype/" method="GET"/>
+[//]: # (<RestRepl :baseUrl="https://www.ris.ripe.net/dumps-per-peer-rest/prototype/" method="GET"/>)
 
 ```bash
 curl https://www.ris.ripe.net/dumps-per-peer-rest/prototype/
@@ -53,7 +53,7 @@ curl https://www.ris.ripe.net/dumps-per-peer-rest/prototype/
 
 Returns list of objects with links to all available dump times for an RRC.
 
-| <!-- -->              | <!-- -->         | 
+| <!-- -->              | <!-- -->         |
 |-----------------------|------------------|
 | Relative path         | {rrcName}        |
 | Methods               | GET              |
@@ -66,7 +66,7 @@ Returns list of objects with links to all available dump times for an RRC.
 | `time`                | Time (hour) of the dump (ISO8601-formatted)            |
 | `mtime`               | Time the resource was last updated (ISO8601-formatted) |
 
-<RestRepl :baseUrl="https://www.ris.ripe.net/dumps-per-peer-rest/prototype/rrc01/" method="GET"/>
+[//]: # (<RestRepl :baseUrl="https://www.ris.ripe.net/dumps-per-peer-rest/prototype/rrc01/" method="GET"/>)
 
 ```bash
 curl https://www.ris.ripe.net/dumps-per-peer-rest/prototype/rrc01/
@@ -100,7 +100,7 @@ curl https://www.ris.ripe.net/dumps-per-peer-rest/prototype/rrc01/
 
 Returns list of objects with links to all available dump files for an RRC and a time.
 
-| <!-- -->              | <!-- -->         | 
+| <!-- -->              | <!-- -->         |
 |-----------------------|------------------|
 | Relative path         | {rrcName}/{time} |
 | Methods               | GET              |
@@ -113,7 +113,7 @@ Returns list of objects with links to all available dump files for an RRC and a 
 | `mtime`               | Time of the last file modification (ISO8601-formatted) |
 | `peerIp`              | IP address of a peer                                   |
 
-<RestRepl :baseUrl="https://www.ris.ripe.net/dumps-per-peer-rest/prototype/rrc01/2022-05-03T10" method="GET"/>
+[//]: # (<RestRepl :baseUrl="https://www.ris.ripe.net/dumps-per-peer-rest/prototype/rrc01/2022-05-03T10" method="GET"/>)
 
 ```bash
 curl https://www.ris.ripe.net/dumps-per-peer-rest/prototype/rrc01/2022-05-03T10
@@ -149,13 +149,13 @@ curl https://www.ris.ripe.net/dumps-per-peer-rest/prototype/rrc01/2022-05-03T10
 
 Returns the dump file for one peer at specified time.
 
-| <!-- -->              | <!-- -->                    | 
+| <!-- -->              | <!-- -->                    |
 |-----------------------|-----------------------------|
 | Relative path         | {rrcName}/{time}/{fileName} |
-| Methods               | GET                         |
+| Methods               | GET, HEAD                   |
 | Response Content-type | application/octet-stream    |
 
-<RestRepl :baseUrl="https://www.ris.ripe.net/dumps-per-peer-rest/prototype/rrc01/2022-05-03T10/bview-20220503T1000-053950A5.gz" method="GET"/>
+[//]: # (<RestRepl :baseUrl="https://www.ris.ripe.net/dumps-per-peer-rest/prototype/rrc01/2022-05-03T10/bview-20220503T1000-053950A5.gz" method="GET"/>)
 
 ```bash
 curl -O https://www.ris.ripe.net/dumps-per-peer-rest/prototype/rrc01/2022-05-03T10/bview-20220503T1000-053950A5.gz
