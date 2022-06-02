@@ -13,4 +13,4 @@ RIPE RIS is a BGP routing data collection platform, and here we document the var
     * RIS Routing Beacons
 
 If you want to contribute to this documentation, please send us a pull request! The canonical source is here:
-https://github.com/emileaben/ris-docs/
+https://github.com/RIPE-NCC/ris-docs
