@@ -15,7 +15,7 @@ individual RRC is available at
 
 The naming scheme for is as follows:
 ```
-   https://data.ris.ripe.net/rrcXX/YYYY.MM/TYPE.YYYYMMDD.HHMM.gz
+   https://data.ris.ripe.net/rrcXX/YYYY.MM/TYPE.YYYYMMDD.HHmm.gz
 ```
    
 with:
@@ -26,7 +26,7 @@ with:
   * TYPE = the type of file, which is either **bview** (dumps) or **update** (updates)
   * DD = day
   * HH = hour
-  * MM = minute
+  * mm = minute
 
 Currently dumps are created every 8 hours,
  and updates are created every 5 minutes
