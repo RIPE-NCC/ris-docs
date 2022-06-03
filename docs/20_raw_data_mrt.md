@@ -39,5 +39,5 @@ There are multiple tools that are able to parse and extract information from MRT
   * [bgpscanner](https://gitlab.com/Isolario/bgpscanner): MRT parser in C, written for speed. Part of the now-defunct Isolario project
   * [microbgp suite](https://git.doublefourteen.io/bgp/ubgpsuite): MRT parser in C, written for speed
   * [BGPKit](https://github.com/bgpkit/bgpkit-parser): MRT parser written in Rust
-  * [java MRT](https://github.com/paaguti/java-mrt): MRT parser written in Java
+  * [java MRT](https://github.com/RIPE-NCC/java-mrt): MRT parser written in Java
   * [mrt parser](https://github.com/sdstrowes/mrt-parser): A minimal, experimental MRT parser in Rust
