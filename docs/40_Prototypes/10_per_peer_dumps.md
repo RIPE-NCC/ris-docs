@@ -6,7 +6,7 @@ At the moment we have per-peer dump files since 28 January 2022, however, we pla
 
 ### REST Interface
 
-Per-peer dump files are available through the REST interface at base URL https://www.ris.ripe.net/dumps-per-peer-rest/prototype/.
+Per-peer dump files are available through the REST interface at base URL [https://www.ris.ripe.net/dumps-per-peer-rest/prototype/](https://www.ris.ripe.net/dumps-per-peer-rest/prototype/).
 
 #### List all RRCs
 

@@ -6,12 +6,12 @@ This files are created one time per day. Each file name either has a timestamp o
 ### Location
 
 While this functionality considered a prototype it will be available here:
-https://www.ris.ripe.net/prototypes/peer-metadata/
+[https://www.ris.ripe.net/prototypes/peer-metadata/](https://www.ris.ripe.net/prototypes/peer-metadata/)
 
 ### Format
 
 The files provided are of json format.
-::: Example here:
+::: details Example:
 ```json
 {
  "meta": {
