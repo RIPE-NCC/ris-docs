@@ -56,6 +56,7 @@ The files provided are of json format.
    "city": "DUS",
    "feed-type": ""
   }
+]
 }
 ```
 :::
