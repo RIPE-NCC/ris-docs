@@ -13,8 +13,7 @@ whois -h riswhois.ripe.net -- --help
 The output of the RISwhois dataservice is in RPSL format. Here is an example of a lookup via whois and the output:
 
 ```
-$ whois -h riswhois.ripe.net 
-whois -h riswhois.ripe.net 193.0.0.1
+$ whois -h riswhois.ripe.net 193.0.0.1
 % This is RIPE NCC's Routing Information Service
 % whois gateway to collected BGP Routing Tables, version2.0
 % IPv4 or IPv6 address to origin prefix match
