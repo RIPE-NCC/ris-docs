@@ -10,6 +10,30 @@ whois -h riswhois.ripe.net -- --help
 ```
 (the complete output from that command is available at the end of this page in the RISwhois glossary section)
 
+The output of the RISwhois dataservice is in RPSL format. Here is an example of a lookup via whois and the output:
+
+```
+$ whois -h riswhois.ripe.net 
+whois -h riswhois.ripe.net 193.0.0.1
+% This is RIPE NCC's Routing Information Service
+% whois gateway to collected BGP Routing Tables, version2.0
+% IPv4 or IPv6 address to origin prefix match
+%
+% For more information visit http://www.ripe.net/ris/riswhois.html
+%
+% Connected to backend ris-whois15.ripe.net
+
+route:        193.0.0.0/21
+origin:       AS3333
+descr:        RIPE-NCC-AS Reseaux IP Europeens Network Coordination Centre (RIPE NCC), NL
+lastupd-frst: 2021-12-08 16:11Z  80.81.192.175@rrc12
+lastupd-last: 2022-06-09 05:48Z  86.104.125.170@rrc22
+seen-at:      rrc00,rrc01,rrc03,rrc04,rrc05,rrc06,rrc07,rrc10,rrc11,rrc12,rrc14,rrc15,rrc16,rrc18,rrc19,rrc20,rrc21,rrc22,rrc23,rrc24,rrc25,rrc26
+num-rispeers: 393
+source:       RISWHOIS
+```
+
+
    * many 'traceroute' command line tools have an option to do IP to ASN resolution, that query whois-type services. For instance:
 ```
 traceroute -A riswhois.ripe.net www.ripe.net
