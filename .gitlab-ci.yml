@@ -38,5 +38,5 @@ deploy:
     - ssh-add <(echo "$SSH_PRIVATE_KEY_B64" | base64 --decode)
     - mkdir -p ~/.ssh
     - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
-    - rsync -aiPh --chmod=ug=rwX,o=rX --delete builds/docs/ guanaco.ripe.net:/var/www/html/docs/
+    - rsync -aiPh --chmod=ug=rwX,o=rX --delete builds/docs/ giioper@guanaco.ripe.net:/var/www/html/docs/
 
