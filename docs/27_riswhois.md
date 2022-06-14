@@ -41,8 +41,8 @@ traceroute -A riswhois.ripe.net www.ripe.net
 ## RISWhois dumps
 
 The prefix to ASN data for the RISwhois service also gets stored as a file, which we call RISWhois dump. This file is updated daily and is available here:
-   * https://www.ris.ripe.net/dumps/riswhoisdump.IPv4.gz
-   * https://www.ris.ripe.net/dumps/riswhoisdump.IPv4.gz
+   * [https://www.ris.ripe.net/dumps/riswhoisdump.IPv4.gz](https://www.ris.ripe.net/dumps/riswhoisdump.IPv4.gz)
+   * [https://www.ris.ripe.net/dumps/riswhoisdump.IPv6.gz](https://www.ris.ripe.net/dumps/riswhoisdump.IPv6.gz)
 
 
 ## RISwhois glossary
