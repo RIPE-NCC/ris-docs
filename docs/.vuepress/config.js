@@ -5,7 +5,7 @@ const getConfig = require("vuepress-bar");
 
 const { nav, sidebar } = getConfig({addReadMeToFirstGroup: false, mixDirectoriesAndFilesAlphabetically: true, multipleSideBar: false});
 
-const apiServer = process.env.API_SERVER || "stat.ripe.net/data";
+const apiServer = process.env.API_SERVER || "ris.ripe.net";
 
 sidebar.forEach((item) => { 
 if (typeof item.title !== 'undefined') { 

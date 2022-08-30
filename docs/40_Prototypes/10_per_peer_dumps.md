@@ -10,6 +10,8 @@ Per-peer dump files are available for the period of two weeks.
 
 Per-peer dump files are available through the REST interface at base URL [https://www.ris.ripe.net/dumps-per-peer-rest/prototype/](https://www.ris.ripe.net/dumps-per-peer-rest/prototype/).
 
+<RestRepl baseUrl="/dumps-per-peer-rest/prototype/" method="GET" :searchParams="{}"/>
+
 #### List all RRCs
 
 Returns a list of objects with links to individual RRC's dumps. 
