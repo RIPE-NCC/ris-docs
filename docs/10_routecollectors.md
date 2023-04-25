@@ -16,7 +16,7 @@ Our active multi-hop collectors and their meta-data is listed below:
 | RRC03  | Amsterdam, NL      | IXP      | AMS-IX, NL-IX | [data](https://data.ris.ripe.net/rrc03/)|
 | RRC04  | Geneva, CH         | IXP      | CIXP          | [data](https://data.ris.ripe.net/rrc04/)|
 | RRC05  | Vienna, AT         | IXP      | VIXP          | [data](https://data.ris.ripe.net/rrc05/)|
-| RRC06  | Otemachi, JP       | IXP      | DIX-IE        | [data](https://data.ris.ripe.net/rrc06/)|
+| RRC06  | Otemachi, JP       | IXP      | DIX-IE, JPIX  | [data](https://data.ris.ripe.net/rrc06/)|
 | RRC07  | Stockholm, SE      | IXP      | Netnod        | [data](https://data.ris.ripe.net/rrc07/)|
 | RRC10  | Milan, IT          | IXP      | MIX           | [data](https://data.ris.ripe.net/rrc10/)|
 | RRC11  | New York, NY, US   | IXP      | NYIIX         | [data](https://data.ris.ripe.net/rrc11/)|
