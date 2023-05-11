@@ -92,54 +92,6 @@
         ]
     },
     {
-        "prefix": "23.128.24.0/24",
-        "type": "anchor",
-        "origin": "rrc03.ripe.net",
-        "times": [
-            "00:00:00-24:00:00"
-        ]
-    },
-    {
-        "prefix": "23.128.25.0/25",
-        "type": "anchor",
-        "origin": "rrc03.ripe.net",
-        "times": [
-            "00:00:00-24:00:00"
-        ]
-    },
-    {
-        "prefix": "23.128.25.240/28",
-        "type": "anchor",
-        "origin": "rrc03.ripe.net",
-        "times": [
-            "00:00:00-24:00:00"
-        ]
-    },
-    {
-        "prefix": "23.128.124.0/24",
-        "type": "anchor",
-        "origin": "rrc03.ripe.net",
-        "times": [
-            "00:00:00-24:00:00"
-        ]
-    },
-    {
-        "prefix": "23.128.125.0/25",
-        "type": "anchor",
-        "origin": "rrc03.ripe.net",
-        "times": [
-            "00:00:00-24:00:00"
-        ]
-    },
-    {
-        "prefix": "23.128.125.240/28",
-        "type": "anchor",
-        "origin": "rrc03.ripe.net",
-        "times": [
-            "00:00:00-24:00:00"
-        ]
-    },
-    {
         "prefix": "93.175.146.0/24",
         "type": "anchor",
         "origin": "rrc03.ripe.net",
