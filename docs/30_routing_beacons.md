@@ -93,6 +93,14 @@ according to this timetable:
 |84.205.72.0/24    | anchor   | RRC14 (PAIX)                | US             |
 |84.205.72.0/24    | beacon   | RRC03 (AMS-IX,NL-IX)        | NL,DK          |
 
+### Fast-paced beacons
+The beacons 84.205.66.0/24 and 2001:7fb:ff02::/48 are announced for 10 minutes and then withdrawn for 10 minutes from RRC03. Specifically:
+   * Announcements at XX:10, XX:30, XX:50
+   * Withdrawals at XX:00, XX:20, XX:40
+
+| IPv4 prefix      | IPv6 prefix        | type     | origin RRC (IXP/multihop)   |peer location(s)|
+|:-----------------|:-------------------|:---------|:----------------------------|:---------------|
+|84.205.66.0/24	   | 2001:7fb:ff02::/48 | beacon   | RRC03 (AMS-IX, NL-IX)       | NL,DK          |
 
 ### Resource Certification (RPKI) Routing Beacons
 
