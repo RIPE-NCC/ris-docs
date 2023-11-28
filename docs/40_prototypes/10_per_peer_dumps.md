@@ -1,3 +1,7 @@
+---
+permalink: /prototypes/per-peer-dumps
+---
+
 # Per-peer dump files
 
 Per-peer dump files are MRT files of type TABLE_DUMP_V2, as described in [RFC 6396, Section 4.3](https://datatracker.ietf.org/doc/html/rfc6396#section-4.3), similar to the "raw bview" per-RRC dump files. The difference is that each file only contains RIB entries from single peer, and that these files are generated every hour (in contrast with per-RRC files, which are generated every 8 hours). Another difference is that these files are more conformant with the format described in the RFC: they do not contain MP_UNREACH_NLRI attribute in RIB entries, and do not include announced prefix in MP_REACH_NLRI attribute, as Section 4.3.4 of RFC 6396 describes.

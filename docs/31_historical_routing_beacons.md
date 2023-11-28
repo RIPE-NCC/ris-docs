@@ -1,3 +1,7 @@
+---
+permalink: /historical-routing-beacons
+---
+
 # Historical List of RIS Routing Beacons
 
 This page lists all beacons that were announced by RIS since 2002 and have since been disabled.

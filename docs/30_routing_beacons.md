@@ -1,3 +1,7 @@
+---
+permalink: /routing-beacons
+---
+
 # Routing Beacons
 
 A Routing Beacon or BGP Beacon is a Border Gateway Protocol (BGP) speaker that announces and withdraws a particular prefix at predetermined time intervals. RIS Route Collectors originate a small number of routing beacons. These serve to better understand the state of the global BGP Internet routing system, by observing how the announcements and withdrawals of these routing beacons propagate throughout the Internet. The geographically dispersed distribution of the RIS Route Collectors makes them ideal for this purpose.

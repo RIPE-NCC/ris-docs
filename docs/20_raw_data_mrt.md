@@ -1,3 +1,7 @@
+---
+permalink: /mrt
+---
+
 # Route Collection Raw Data: MRT Files
 
 Route collector projects (like RIS, Routeviews) store the data they capture in files in the [MRT format](https://tools.ietf.org/html/rfc6396). This data is useful for looking at the state of the BGP Internet, debugging/post-mortems of events in BGP, and tracking of long term trends in BGP.

@@ -1,3 +1,7 @@
+---
+permalink: /prototypes/peer-metadata
+---
+
 # Peer metadata files
 
 Peer metadata files provide information about RIS peers, like geographical location.
