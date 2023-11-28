@@ -155,31 +155,17 @@ All RRCs:
 Routing Beacon Address Schema:
 | Prefix         | RRC                   | Location         |
 |:---------------|:----------------------|:-----------------|
-| 84.205.64.0/24 | RRC00 - RIPE NCC      | Amsterdam, NL    |
-| 84.205.65.0/24 | RRC01 - LINX          | London, UKi      |
-| 84.205.67.0/24 | RRC03 - AMS-IX, NL-IX | Amsterdam, NL    |
 | 84.205.68.0/24 | RRC04 - CIXP          | Geneva, CH       |
-| 84.205.69.0/24 | RRC05 - VIX           | Vienna, AT       |
-| 84.205.70.0/24 | RRC06 - DIX-IE        | Otematchi, JP    |
 | 84.205.71.0/24 | RRC07 - NETNOD        | Stockholm, SE    |
 | 84.205.74.0/24 | RRC10 - MIX           | Milan, IT        |
-| 84.205.75.0/24 | RRC11 - NYIIX         | New York, NY, US |
-| 84.205.76.0/24 | RRC12 - DE-CIX        | Frankfurt, DE    |
 | 84.205.78.0/24 | RRC14 - PAIX          | Palo Alto, CA, US|
 
 Routing Anchor Address Schema:
 | Prefix         | RRC                   | Location         |
 |:---------------|:----------------------|:-----------------|
-| 84.205.80.0/24 | RRC00 - RIPE NCC      | Amsterdam, NL    |
-| 84.205.81.0/24 | RRC01 - LINX          | London, UK       |
-| 84.205.83.0/24 | RRC03 - AMS-IX, NL-IX | Amsterdam, NL    |
 | 84.205.84.0/24 | RRC04 - CIXP          | Geneva, CH       |
-| 84.205.85.0/24 | RRC05 - VIX           | Vienna, AT       |
-| 84.205.86.0/24 | RRC06 - DIX-IE        | Otematchi, JP    |
 | 84.205.87.0/24 | RRC07 - NETNOD        | Stockholm, SE    |
 | 84.205.90.0/24 | RRC10 - MIX           | Milan, IT        |
-| 84.205.91.0/24 | RRC11 - NYIIX         | New York, NY, US |
-| 84.205.92.0/24 | RRC12 - DE-CIX        | Frankfurt, DE    |
 | 84.205.94.0/24 | RRC14 - PAIX          | Palo Alto, CA, US|
 
 ## 03/02/2005 - 02/01/2024
