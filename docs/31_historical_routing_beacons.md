@@ -6,7 +6,7 @@ permalink: /historical-routing-beacons
 
 This page lists all beacons that were announced by RIS since 2002 and have since been disabled.
 
-**Note:** Until 02/01/2024 all IPv4 beacons were tagged with the RRC identifier as part of the BGP AGGREGATOR attribute. This encoding was done as follows:
+**Note:** Until February 1st, 2024, all IPv4 beacons were tagged with the RRC identifier as part of the BGP AGGREGATOR attribute. This encoding was done as follows:
 
    * AGGREGATOR IP ADDRESS: 10.x.y.z, where x, y and z form a 24-bit count of the number of seconds between the start of the month and the time of the announcement.
    * AGGREGATOR AS NUMBER: 64512 + n, where n is a 10-bit number encoded as
