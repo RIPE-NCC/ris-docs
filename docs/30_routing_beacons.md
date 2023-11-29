@@ -41,9 +41,9 @@ For all beacon prefixes below we have a 2 hour up - 2 hour down schedule. Specif
 | 2001:7fb:ff00::/48 |                    | anchor   |"|"|
 | 2001:7fb:fe01::/48 | 84.205.65.0/24     | beacon   | RRC01 (LINX/LONAP)          | GB             |
 | 2001:7fb:ff01::/48 | 84.205.81.0/24     | anchor   |"|"|
-| 2001:7fb:fe03::/48 | 84.205.67.0/24     | beacon   | RRC03 (AMS-IX, NL-IX)       | NL,DK          |
+| 2001:7fb:fe03::/48 | 84.205.67.0/24     | beacon   | RRC03 (AMS-IX, NL-IX)       | NL             |
 | 2001:7fb:ff03::/48 | 84.205.83.0/24     | anchor   |"|"|
-| 2001:7fb:fe04::/48 |                    | beacon   | RRC04 (CIXP)                | CH,FR          |
+| 2001:7fb:fe04::/48 |                    | beacon   | RRC04 (CIXP)                | CH             |
 | 2001:7fb:ff04::/48 |                    | anchor   |"|"|
 | 2001:7fb:fe05::/48 |                    | beacon   | RRC05 (VIX)                 | AT	            |
 | 2001:7fb:ff05::/48 |                    | anchor   |"|"|
@@ -67,7 +67,7 @@ For all beacon prefixes below we have a 2 hour up - 2 hour down schedule. Specif
 | 2001:7fb:ff10::/48 |                    | anchor   |"|"|
 | 2001:7fb:fe12::/48 |                    | beacon   | RRC18 (CATNIX)              | ES             |
 | 2001:7fb:ff12::/48 |                    | anchor   |"|"|
-| 2001:7fb:fe13::/48 |                    | beacon   | RRC19 (NAP Africa JB)       | ZA 	          |
+| 2001:7fb:fe13::/48 |                    | beacon   | RRC19 (NAP Africa JB)       | ZA             |
 | 2001:7fb:ff13::/48 |                    | anchor   |"|"|
 | 2001:7fb:fe14::/48 |                    | beacon   | RRC20 (SwissIX)             | CH             |
 | 2001:7fb:ff14::/48 |                    | anchor   |"|"|
@@ -79,9 +79,9 @@ For all beacon prefixes below we have a 2 hour up - 2 hour down schedule. Specif
 | 2001:7fb:ff17::/48 |                    | anchor   |"|"|
 | 2001:7fb:fe18::/48 |                    | beacon   | RRC24 (multihop)            | LACNIC region  |
 | 2001:7fb:ff18::/48 |                    | anchor|"|"|
-| 2001:7fb:fe20::/48 |                    | beacon   | RRC25 (multihop)            | global  |
+| 2001:7fb:fe20::/48 |                    | beacon   | RRC25 (multihop)            | global         |
 | 2001:7fb:ff20::/48 |                    | anchor|"|"|
-| 2001:7fb:fe19::/48 |                    | beacon   | RRC26 (UAE-IX)            | AE             |
+| 2001:7fb:fe19::/48 |                    | beacon   | RRC26 (UAE-IX)              | AE             |
 | 2001:7fb:ff19::/48 |                    | anchor   |"|"|
 
 ## Special beaconing setups
