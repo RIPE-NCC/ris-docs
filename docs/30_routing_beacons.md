@@ -10,7 +10,7 @@ These prefixes can be divided into 2 types:
    * Beacon prefixes: These prefixes are announced and withdrawn according to a set schedule. The propagation of the announcement and withdrawal, or lack thereof, can inform us about the state of the Internet BGP routing system
    * Anchor prefixes: These prefixes are supposed to be announced all the time. Typically, one pair of a beacon and anchor prefix is announced from a specific route collector (RRC). This way anchor prefixes can be used to differentiate between activity seen as a result of changes on the originating RRC and that seen for other reasons. If the anchor flaps, it could mean that the RRC was reloaded and activity of the corresponding beacon can be ignored when doing analysis of the RIS data.
 
-We ask our peers to accept and propagate our anchor and beacon prefixes, and we try to make an effort to have them seen globally, but it must be noted that global visibility of these prefixes is not guaranteed. If you notice any of these prefixes not propagating globally, please let us know at ris@ripe.net
+We ask our peers to accept and propagate our anchor and beacon prefixes, and we try to make an effort to have them seen globally, but it must be noted that global visibility of these prefixes is not guaranteed. If you notice any of these prefixes not propagating globally, please let us know at [ris@ripe.net](mailto:ris@ripe.net).
 
 All beacon prefixes are announced with additional attributes. We overload the BGP AGGREGATOR attribute to tag each announcement with a timestamp, a sequence number and a number uniquely identifying the announcement. These are encoded as follows:
 
@@ -27,7 +27,7 @@ All beacon prefixes are announced with additional attributes. We overload the BG
   
 Adding 64512 brings the resulting number into the private AS number range.
 
-If one wants to make special arrangements for routing beacons, contact us at ris@ripe.net, but keep in mind that in IPv4 the address space that we have available is very limited. We will evaluate these requests based on the potential benefit to our community as a whole. An alternative for experiments with routing beacons is the [PEERING project](https://peering.ee.columbia.edu/).
+If one wants to make special arrangements for routing beacons, contact us at [ris@ripe.net](mailto:ris@ripe.net), but keep in mind that in IPv4 the address space that we have available is very limited. We will evaluate these requests based on the potential benefit to our community as a whole. An alternative for experiments with routing beacons is the [PEERING project](https://peering.ee.columbia.edu/).
 
 ## Current Beaconing Setup
 
@@ -158,7 +158,7 @@ The following prefixes have been allocated to RIS, but are deliberately not anno
 
 # History
 
-We have archived a description of the historical setup of routing beacons here: https://ris.ripe.net/docs/historical-routing-beacons. This description is not entirely accurate and complete, but should serve as a starting point if one wants to study routing beacons pre 2024.
+We have archived a description of the historical setup of routing beacons [here](/docs/historical-routing-beacons). This description is not entirely accurate and complete, but should serve as a starting point if one wants to study routing beacons pre 2024.
 
 # Machine readable routing beacon info
 
