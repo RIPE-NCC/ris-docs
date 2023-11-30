@@ -29,7 +29,9 @@ Adding 64512 brings the resulting number into the private AS number range.
 
 If one wants to make special arrangements for routing beacons, contact us at ris@ripe.net, but keep in mind that in IPv4 the address space that we have available is very limited. We will evaluate these requests based on the potential benefit to our community as a whole. An alternative for experiments with routing beacons is the [PEERING project](https://peering.ee.columbia.edu/).
 
-## Current Beaconing Setup (per February 1st, 2024)
+## Current Beaconing Setup
+
+The below table lists the RIS routing beacons per February 1st, 2024.
 
 For all beacon prefixes below we have a 2 hour up - 2 hour down schedule. Specifically:
    * Announcements at 00:00, 04:00, 08:00, 12:00, 16:00, 20:00 (UTC)
