@@ -164,7 +164,7 @@ We have archived a description of the historical setup of routing beacons [here]
 
 Current routing beacon information in machine readable format can be found here:
    
-   [ris-routing-beacons.json](ris-routing-beacons.json)
+   [ris-routing-beacons.json](/docs/ris-routing-beacons.json)
    
 # Further background reading
 
