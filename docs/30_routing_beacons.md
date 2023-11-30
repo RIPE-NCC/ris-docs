@@ -119,7 +119,7 @@ To measure the reachability of longer-than-/48 IPv6 prefixes and longer-than-/24
 
 | IPv6 prefix            | IPv4 prefix        | type   | origin RRCs | AGGREGATOR announcement ID |
 |:-----------------------|:-------------------|:-------|:------------|:---------------------------|
-| 2001:7fb:fb01:100::/56 | 93.175.154.0/25    | anchor | RRC04<br>RRC06<br>RRC11<br>RRC15<br>RRC19 | 0 (RRC04)<br>1 (RRC06)<br>2 (RRC11)<br>3 (RRC15)<br>4 (RRC19) |
+| 2001:7fb:fb01:<wbr>100::/56 | 93.175.154.0/25    | anchor | RRC04<br>RRC06<br>RRC11<br>RRC15<br>RRC19 | 0 (RRC04)<br>1 (RRC06)<br>2 (RRC11)<br>3 (RRC15)<br>4 (RRC19) |
 | 2001:7fb:fb01:200::/64 | 93.175.154.128/28  | anchor | RRC04<br>RRC06<br>RRC11<br>RRC15<br>RRC19 | 0 (RRC04)<br>1 (RRC06)<br>2 (RRC11)<br>3 (RRC15)<br>4 (RRC19) |
 
 ### Fast-paced beacons
