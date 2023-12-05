@@ -14,7 +14,7 @@ We ask our peers to accept and propagate our anchor and beacon prefixes, and we 
 
 All beacon prefixes are announced with additional attributes. We overload the BGP AGGREGATOR attribute to tag each announcement with a timestamp, a sequence number and a number uniquely identifying the announcement. These are encoded as follows:
 
-   * AGGREGATOR IP ADDRESS: 10.x.y.z, where x, y and z form a 24-bit count of the number of seconds between the start of the month and the time of the announcement.
+   * AGGREGATOR IP ADDRESS: 10.x.y.z, where x, y and z form a 24-bit count of the number of seconds between midnight UTC on the 1st of the month and the time of the announcement.
    * AGGREGATOR AS NUMBER: 64512 + n, where n is a 10-bit number encoded as
 
     MSB                                   LSB
@@ -26,6 +26,8 @@ All beacon prefixes are announced with additional attributes. We overload the BG
     +---+---+---+---+---+---+---+---+---+---+
   
 Adding 64512 brings the resulting number into the private AS number range.
+
+For several setups the Announcement ID is used to identify which RRC an announcement originated from. The mapping between RRC and Announcement ID is unique per setup and documented in the corresponding table further down in this page. The Announcement ID will be 0 for all other setups.
 
 If one wants to make special arrangements for routing beacons, contact us at [ris@ripe.net](mailto:ris@ripe.net), but keep in mind that in IPv4 the address space that we have available is very limited. We will evaluate these requests based on the potential benefit to our community as a whole. An alternative for experiments with routing beacons is the [PEERING project](https://peering.ee.columbia.edu/).
 
