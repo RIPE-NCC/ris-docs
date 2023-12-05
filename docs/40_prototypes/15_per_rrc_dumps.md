@@ -1,3 +1,7 @@
+---
+permalink: /prototypes/per-rrc-dumps
+---
+
 # Per-RRC BGP dump files
 
 Per-RRC dump files are MRT files of type TABLE_DUMP_V2, as described in [RFC 6396, Section 4.3](https://datatracker.ietf.org/doc/html/rfc6396#section-4.3). They contain a snapshot of all known best routes gathered by corresponding collector (RRC) and actual at the specified time.

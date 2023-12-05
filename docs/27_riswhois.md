@@ -1,3 +1,7 @@
+---
+permalink: /ris-whois
+---
+
 # RISwhois
 
 ## dataservice
