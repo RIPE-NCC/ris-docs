@@ -127,8 +127,8 @@ To measure the reachability of longer-than-/48 IPv6 prefixes and longer-than-/24
 ### Fast-paced beacons
 
 The beacons 2001:7fb:ff02::/48 and 84.205.66.0/24 are announced for 10 minutes and then withdrawn for 10 minutes from RRC03. Specifically:
-   * Announcements at XX:10, XX:30, XX:50
-   * Withdrawals at XX:00, XX:20, XX:40
+   * Announcements at XX:00, XX:20, XX:40
+   * Withdrawals at XX:10, XX:30, XX:50
 
 | IPv6 prefix        | IPv4 prefix     | type     | origin RRC (IXP/multihop)   |peer location(s)|
 |:-------------------|:----------------|:---------|:----------------------------|:---------------|
