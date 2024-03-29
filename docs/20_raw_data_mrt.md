@@ -11,7 +11,7 @@ while update files store all changes to the routing system for a particular inte
 
 ## Name and location
 
-RIS collects collects data on a per-route collector basis. This means we store all the BGP data we receive from all the peers of a route collector in a single file.
+RIS collects data on a per-route collector basis. This means we store all the BGP data we receive from all the peers of a route collector in a single file.
 Most route collectors collect data for peers at the IXP peering LAN(s) the collector is connected to, but some (as of this writing RRC00, RRC24 and RRC25) 
 are so-called multi-hop collectors, which in practice means they collect data from peers from all over the Internet.
 RRCs are numbered, starting at RRC00, and going up. Deprecated RRCs will not have new data but their data will be accessible. More meta-data about each
