@@ -4,9 +4,9 @@ permalink: /route-collectors
 
 # Route collectors
 
-Route collectors are the physical machines where RIS ingests BGP routing data. We receive this data via BGP peering sessions. Most route collectors collect data from peers at IXP peering LANs that the route collectors are physically attached to. We also have 'multi-hop' route collectors, which collect BGP data from peers via BGP multi-hop sessions. The advantage of multi-hop BGP sessions is that data collection is not restricted to networks that are attached to the same peering LANs as the RIS collector. Instead, these sessions can be established with us from all over the world.
+Route collectors are the (physical or virtual) machines where RIS ingests BGP routing data. We receive this data via BGP peering sessions, where RIPE RIS uses [AS12654](https://www.peeringdb.com/net/621). Most route collectors collect data from peers at IXP peering LANs that the route collectors are physically attached to. We also have 'multi-hop' route collectors, which collect BGP data from peers via BGP multi-hop sessions. The advantage of multi-hop BGP sessions is that data collection is not restricted to networks that are attached to the same peering LANs as the RIS collector. Instead, these sessions can be established with us from all over the world.
 
-Or route collectors have names that start with 'RRC' and end with a number. Starting at 00 and (as of this writing) up to 26.
+Our route collectors have names that start with 'RRC' and end with a number. Starting at 00 and (as of this writing) up to 26.
 We typically add a small number of route collectors every year.
 
 For route collectors that are attached to IXP peering LANs we keep our [PeeringDB record](https://www.peeringdb.com/net/621) up to date, so this serves as the authoritative source for what peering LANs we can establish BGP peering sessions on, ie. where networks can directly peer with us.
@@ -52,9 +52,11 @@ Historic route collectors are listed in this table:
 
 Locations are also available in dns LOC records
 
-RIPEstat includes a metadata call with more information: https://stat.ripe.net/docs/data_api#rrc-info
+## Peer meta-data
 
-We also have a list of peers per RRC: https://www.ris.ripe.net/peerlist/all.shtml
+RIPEstat [has an API (rrc-info)](https://stat.ripe.net/docs/02.data-api/rrc-info.html) with the current RIS peers and their numbers of routes. Furthermore, there is a prototype with machine-readable metadata for the **multihop** peers in our [peer metadata prototype](./40_prototypes/20_peer_metadata.md).
+
+We also have a web page of peers per RRC: https://www.ris.ripe.net/peerlist/all.shtml
 
 ## BGP Timer settings
 
