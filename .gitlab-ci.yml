@@ -19,7 +19,9 @@ stages:
 
 build: 
     stage: build
-    script: npm run docs:build
+    script:
+      - node -e "JSON.parse(require('fs').readFileSync('docs/ris-routing-beacons.json', 'utf8'))"
+      - npm run docs:build
     artifacts:
       paths: 
         - ./builds/docs
