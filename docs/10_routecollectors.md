@@ -27,7 +27,7 @@ Our active multi-hop collectors and their meta-data is listed below:
 | RRC12  | Frankfurt, DE      | IXP      | DE-CIX        | [data](https://data.ris.ripe.net/rrc12/)| [DE-CIX](https://www.de-cix.net/) |
 | RRC13  | Moscow, RU         | IXP      | MSK-IX        | [data](https://data.ris.ripe.net/rrc13/)| [MSK-IX](https://www.msk-ix.ru/) |
 | RRC14  | Palo Alto, CA, US  | IXP      | PAIX          | [data](https://data.ris.ripe.net/rrc14/)| [Equinix](https://www.equinix.com/) |
-| RRC15  | Sao Paolo, BR      | IXP      | PTTMetro-SP   | [data](https://data.ris.ripe.net/rrc15/)| [IX.br](https://ix.br/) |
+| RRC15  | Sao Paulo, BR      | IXP      | PTTMetro-SP   | [data](https://data.ris.ripe.net/rrc15/)| [IX.br](https://ix.br/) |
 | RRC16  | Miami, FL, US      | IXP      | Equinix Miami | [data](https://data.ris.ripe.net/rrc16/)| [RIPE NCC](https://www.ripe.net/) |
 | RRC18  | Barcelona, ES      | IXP      | CATNIX        | [data](https://data.ris.ripe.net/rrc18/)| [CATNIX](https://www.catnix.net/) |
 | RRC19  | Johannesburg, ZA   | IXP      | NAP Africa JB | [data](https://data.ris.ripe.net/rrc19/)| [Network Platforms](https://www.networkplatforms.co.za/)|
