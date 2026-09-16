@@ -30,10 +30,10 @@ Our active multi-hop collectors and their meta-data is listed below:
 | RRC15  | Sao Paulo, BR      | IXP      | PTTMetro-SP   | [data](https://data.ris.ripe.net/rrc15/)| [IX.br](https://ix.br/) |
 | RRC16  | Miami, FL, US      | IXP      | Equinix Miami | [data](https://data.ris.ripe.net/rrc16/)| [RIPE NCC](https://www.ripe.net/) |
 | RRC18  | Barcelona, ES      | IXP      | CATNIX        | [data](https://data.ris.ripe.net/rrc18/)| [CATNIX](https://www.catnix.net/) |
-| RRC19  | Johannesburg, ZA   | IXP      | NAP Africa JB | [data](https://data.ris.ripe.net/rrc19/)| [Network Platforms](https://www.networkplatforms.co.za/)|
+| RRC19  | Johannesburg, ZA   | IXP      | NAPAfrica JB  | [data](https://data.ris.ripe.net/rrc19/)| [Network Platforms](https://www.networkplatforms.co.za/)|
 | RRC20  | Zurich, CH         | IXP      | SwissIX       | [data](https://data.ris.ripe.net/rrc20/)| [SWISS-IX](https://www.swissix.ch/) |
 | RRC21  | Paris, FR          | IXP      | France-IX Paris and France-IX Marseille | [data](https://data.ris.ripe.net/rrc21/)| [France-IX](https://www.franceix.net/en/)|
-| RRC22  | Bucharest, RO      | IXP      | Interlan      | [data](https://data.ris.ripe.net/rrc22/)| [InterLAN](https://www.interlan.ro/) |
+| RRC22  | Bucharest, RO      | IXP      | InterLAN      | [data](https://data.ris.ripe.net/rrc22/)| [InterLAN](https://www.interlan.ro/) |
 | RRC23  | Singapore, SG      | IXP      | Equinix Singapore | [data](https://data.ris.ripe.net/rrc23/)| [Equinix](https://www.equinix.com/) |
 | RRC24  | Montevideo, UY     | multihop | LACNIC region | [data](https://data.ris.ripe.net/rrc24/)| [LACNIC](https://www.lacnic.net/) |
 | RRC25  | Amsterdam, NL      | multihop | global        | [data](https://data.ris.ripe.net/rrc25/)| [RIPE NCC](https://www.ripe.net/) |
