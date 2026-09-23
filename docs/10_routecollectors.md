@@ -32,7 +32,7 @@ Our active multi-hop collectors and their meta-data is listed below:
 | RRC18  | Barcelona, ES      | IXP      | CATNIX        | [data](https://data.ris.ripe.net/rrc18/)| [CATNIX](https://www.catnix.net/) |
 | RRC19  | Johannesburg, ZA   | IXP      | NAP Africa JB | [data](https://data.ris.ripe.net/rrc19/)| [Network Platforms](https://www.networkplatforms.co.za/)|
 | RRC20  | Zurich, CH         | IXP      | SwissIX       | [data](https://data.ris.ripe.net/rrc20/)| [SWISS-IX](https://www.swissix.ch/) |
-| RRC21  | Paris, FR          | IXP      | France-IX Paris and France-IX Marseille | [data](https://data.ris.ripe.net/rrc21/)| [France-IX](https://www.franceix.net/en/)|
+| RRC21  | Paris, FR          | IXP      | France-IX Paris, France-IX Marseille, and LU-CIX Luxembourg | [data](https://data.ris.ripe.net/rrc21/)| [France-IX](https://www.franceix.net/en/), [LU-CIX Luxembourg](https://www.lu-cix.lu/)|
 | RRC22  | Bucharest, RO      | IXP      | Interlan      | [data](https://data.ris.ripe.net/rrc22/)| [InterLAN](https://www.interlan.ro/) |
 | RRC23  | Singapore, SG      | IXP      | Equinix Singapore | [data](https://data.ris.ripe.net/rrc23/)| [Equinix](https://www.equinix.com/) |
 | RRC24  | Montevideo, UY     | multihop | LACNIC region | [data](https://data.ris.ripe.net/rrc24/)| [LACNIC](https://www.lacnic.net/) |
