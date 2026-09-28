@@ -11,7 +11,7 @@ We typically add a small number of route collectors every year.
 
 For route collectors that are attached to IXP peering LANs we keep our [PeeringDB record](https://www.peeringdb.com/net/621) up to date, so this serves as the authoritative source for what peering LANs we can establish BGP peering sessions on, ie. where networks can directly peer with us.
 
-Our active multi-hop collectors and their meta-data is listed below:
+Our active route collectors and their meta-data is listed below:
 
 | Name   | Physical Location  | Type     | Scope         | Raw Data | Sponsors |
 |:-------|:-------------------|:---------|:--------------|:---------| ---------|
