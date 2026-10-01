@@ -9,7 +9,7 @@ Peer metadata files provide information about RIS peers, like geographical locat
 These files are generated once a day and are published in JSON format.
 
 
-The latest metadata file is [here](https://www.ris.ripe.net/prototypes/peer-metadata/metadata_latest.json).
+The latest metadata file is [here](https://www.ris.ripe.net/peer-metadata/metadata_latest.json).
 
 Files generated in the past days are available
-[here](https://www.ris.ripe.net/prototypes/peer-metadata/).
+[here](https://www.ris.ripe.net/peer-metadata/).
