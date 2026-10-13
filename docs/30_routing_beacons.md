@@ -82,9 +82,9 @@ For all beacon prefixes below we have a 2 hour up - 2 hour down schedule. Specif
 | 2001:7fb:fe17::/48 |                    | beacon   | RRC23 (Equinix Singapore)   | SG             |
 | 2001:7fb:ff17::/48 |                    | anchor   |"|"|
 | 2001:7fb:fe18::/48 |                    | beacon   | RRC24 (multihop)            | LACNIC region  |
-| 2001:7fb:ff18::/48 |                    | anchor|"|"|
+| 2001:7fb:ff18::/48 |                    | anchor   |"|"|
 | 2001:7fb:fe20::/48 |                    | beacon   | RRC25 (multihop)            | global         |
-| 2001:7fb:ff20::/48 |                    | anchor|"|"|
+| 2001:7fb:ff20::/48 |                    | anchor   |"|"|
 | 2001:7fb:fe19::/48 |                    | beacon   | RRC26 (UAE-IX)              | AE             |
 | 2001:7fb:ff19::/48 |                    | anchor   |"|"|
 
