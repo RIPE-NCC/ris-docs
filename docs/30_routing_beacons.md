@@ -41,7 +41,7 @@ For all beacon prefixes below we have a 2 hour up - 2 hour down schedule. Specif
 
 | IPv6 prefix        | IPv4 prefix        | type     | origin RRC (IXP/multihop)   |peer location(s)|
 |:-------------------|:-------------------|:---------|:----------------------------|:---------------|
-| 2001:7fb:ef00::/48 |                    | beacon   | RRC00 (multihop)            | global         |
+| 2001:7fb:fe00::/48 |                    | beacon   | RRC00 (multihop)            | global         |
 | 2001:7fb:ff00::/48 |                    | anchor   |"|"|
 | 2001:7fb:fe01::/48 | 84.205.65.0/24     | beacon   | RRC01 (LINX/LONAP)          | GB             |
 | 2001:7fb:ff01::/48 | 84.205.81.0/24     | anchor   |"|"|
