@@ -82,9 +82,9 @@ For all beacon prefixes below we have a 2 hour up - 2 hour down schedule. Specif
 | 2001:7fb:fe17::/48 |                    | beacon   | RRC23 (Equinix Singapore)   | SG             |
 | 2001:7fb:ff17::/48 |                    | anchor   |"|"|
 | 2001:7fb:fe18::/48 |                    | beacon   | RRC24 (multihop)            | LACNIC region  |
-| 2001:7fb:ff18::/48 |                    | anchor|"|"|
+| 2001:7fb:ff18::/48 |                    | anchor   |"|"|
 | 2001:7fb:fe20::/48 |                    | beacon   | RRC25 (multihop)            | global         |
-| 2001:7fb:ff20::/48 |                    | anchor|"|"|
+| 2001:7fb:ff20::/48 |                    | anchor   |"|"|
 | 2001:7fb:fe19::/48 |                    | beacon   | RRC26 (UAE-IX)              | AE             |
 | 2001:7fb:ff19::/48 |                    | anchor   |"|"|
 
@@ -136,7 +136,7 @@ The beacons 2001:7fb:ff02::/48 and 84.205.66.0/24 are announced for 10 minutes a
 
 ### Resource Certification (RPKI) Routing Beacons
 
-A number of prefixes is permanent announcement from RRC03 to provide insight into the visibility of prefixes in various RPKI states. Each prefix has a pingable address at :1 (IPv6) or .1 (IPv6).
+A number of prefixes is permanent announcement from RRC03 to provide insight into the visibility of prefixes in various RPKI states. Each prefix has a pingable address at :1 (IPv6) or .1 (IPv4).
 
 2001:7fb:fd04::/48 is announced by AS15562 for [RPKI TEST](https://www.ripe.net/s/rpki-test).
 
@@ -150,7 +150,7 @@ A number of prefixes is permanent announcement from RRC03 to provide insight int
 More information available at [RIPE NCC's Resource Certification (RPKI) pages](https://www.ripe.net/manage-ips-and-asns/resource-management/rpki), and 
 [Routing Certification Beacons on RIPE Labs](https://labs.ripe.net/Members/markd/routing-certification-beacons/)
 
-### Deliberately unnanounced prefixes
+### Deliberately unannounced prefixes
 
 The following prefixes have been allocated to RIS, but are deliberately not announced in the BGP routing system. We have a RIPE Atlas traceroute measurement towards an address in the IPv4 prefix (documented [here](https://github.com/RIPE-Atlas-Community/ripe-atlas-tips-and-tricks/wiki/nonDFZ-Routing)).
 
