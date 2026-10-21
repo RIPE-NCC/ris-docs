@@ -91,7 +91,7 @@ We define the *nearest-matching VRP* by ordering all covering VRPs lexicographic
 3. the length of the VRP prefix,
 4. the inverse distance of the route prefix length to the VRP maximum prefix length,
 
-and picking the maximal VRP based on these criteria.
+and picking the maximal VRP based on these criteria. In essence, the nearest-matching VRP is the 'most relevant' VRP for this route - it is on its own enough to determine the ROV state, and gives an idea of the minimal modification necessary to make the route pass origin validation if it does not currently do so.
 
 An `rpki-vrp` attribute is generated for all covering VRPs. Its syntax is as follows:
 
