@@ -74,7 +74,7 @@ num-rispeers:  343
 source:        RISWHOIS
 ```
 
-The format and interpretation of the added attributes is described below. We use the definition of "match" and "cover" from RFC 6811 §2.
+The format and interpretation of the added attributes is described below. We use the definition of "match" and "cover" from [RFC 6811 §2](https://www.rfc-editor.org/info/rfc6811/#section-2).
 
 The `rpki-ov-state` attribute can be one of:
 

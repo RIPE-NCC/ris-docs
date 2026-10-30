@@ -180,7 +180,7 @@ RRC01 / RRC03:
 Routing Beacon Address Schema:
 | Prefix         | RRC                   | Location         |
 |:---------------|:----------------------|:-----------------|
-| 84.205.72.0/24 | RRC01 - LINX          | London, UK       |
+| 84.205.72.0/24 | RRC01 - LINX          | London, GB       |
 | 84.205.72.0/24 | RRC03 - AMS-IX, NL-IX |  Amsterdam, NL   |
 
 ## 03/02/2005 - 02/10/2008
@@ -201,7 +201,7 @@ Routing Anchor Address Schema:
 |:---------------|:----------------------|:-----------------|
 | 84.205.82.0/24 | RRC02 - SFINX         | Paris, FR        |
 
-# 02/02/2005 - 03/09/2007
+## 02/02/2005 - 03/09/2007
 
 Beacon initiated to simulate anycast failover from RRC01 to RRC03.
 
@@ -213,7 +213,7 @@ RRC01 / RRC03:
 Routing Beacon Address Schema:
 | Prefix         | RRC                          | Location         |
 |:---------------|:-----------------------------|:-----------------|
-| 84.205.72.0/24 | RRC01 - LINX                 | London, UK       |
+| 84.205.72.0/24 | RRC01 - LINX                 | London, GB       |
 | 84.205.72.0/24 | RRC03 - AMS-IX, NL-IX, GN-IX | Amsterdam, NL    |
 
 ## 07/12/2004 - 02/02/2005
@@ -240,22 +240,9 @@ RRC12:
 * Withdrawals at 02:00h, 06:00h, 10:00h, 14:00h, 18:00h and 22:00h (UTC)
 
 Routing Beacon Address Schema:
-| Prefix          | RRC                          | Location           |
-|:----------------|:-----------------------------|:-------------------|
-| 195.80.236.0/24 | RRC12 - DE-CIX               | Frankfurt, Germany |
-
-## 06/07/2004 - 02/02/2005
-
-Beacon initiated to assist studies into unwanted effects on convergence when applying current Route Flap Damping practises.
-
-RRC12:
-* Announcements at 00:00h, 04:00h, 08:00h, 12:00h, 16:00h and 20:00h (UTC)
-* Withdrawals at 02:00h, 06:00h, 10:00h, 14:00h, 18:00h and 22:00h (UTC)
-
-Routing Beacon Address Schema:
-| Prefix          | RRC                          | Location           |
-|:----------------|:-----------------------------|:-------------------|
-| 195.80.236.0/24 | RRC12 - DE-CIX               | Frankfurt, Germany |
+| Prefix          | RRC                          | Location      |
+|:----------------|:-----------------------------|:--------------|
+| 195.80.236.0/24 | RRC12 - DE-CIX               | Frankfurt, DE |
 
 ## 20/09/2004 - 02/02/2005
 
@@ -283,9 +270,9 @@ RRC11:
 * Withdrawals at 02:00h, 06:00h, 10:00h, 14:00h, 18:00h and 22:00h (UTC)
 
 Routing Beacon Address Schema:
-| Prefix          | RRC                          | Location           |
-|:----------------|:-----------------------------|:-------------------|
-| 195.80.235.0/24 | RRC11 - NYIIX                | New York, NY, USA  |
+| Prefix          | RRC                          | Location          |
+|:----------------|:-----------------------------|:------------------|
+| 195.80.235.0/24 | RRC11 - NYIIX                | New York, NY, US  |
 
 ## 30/09/2002 - 02/02/2005
 
@@ -299,7 +286,7 @@ Routing Beacon Address Schema:
 | Prefix          | RRC                          | Location           |
 |:----------------|:-----------------------------|:-------------------|
 | 195.80.224.0/24 | RRC00 - RIPE NCC             | Amsterdam, NL      |
-| 195.80.225.0/24 | RRC01 - LINX                 | London, UK         |
+| 195.80.225.0/24 | RRC01 - LINX                 | London, GB         |
 | 195.80.226.0/24 | RRC02 - SFINX                | Paris, FR          |
 | 195.80.227.0/24 | RRC03 - AMS-IX               | Amsterdam, NL      |
 | 195.80.228.0/24 | RRC04 - CIXP                 | Geneva, CH         |
@@ -320,6 +307,6 @@ RRC01 / RRC03:
 Routing Beacon Address Schema:
 | Prefix          | RRC                          | Location           |
 |:----------------|:-----------------------------|:-------------------|
-195.80.233.0/24   | RRC01 - LINX                 | London, UK         |
+195.80.233.0/24   | RRC01 - LINX                 | London, GB         |
 195.80.233.0/24   | RRC03 - AMS-IX               | Amsterdam, NL      |
 

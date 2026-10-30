@@ -6,7 +6,7 @@ permalink: /prototypes/per-rrc-dumps
 
 Per-RRC dump files are MRT files of type TABLE_DUMP_V2, as described in [RFC 6396, Section 4.3](https://datatracker.ietf.org/doc/html/rfc6396#section-4.3). They contain a snapshot of all known best routes gathered by corresponding collector (RRC) and actual at the specified time.
 
-We have been providing per-RRC MRT dump files for a long time. Those files are generated with 8-hours interval, and are available at https://data.ris.ripe.net/rrcXX/. The files that are available through the interface described below are published every hour and with significantly lower delay. They provide the same information as 8-hour dumps, but without redundant information, and are more conformant with RFC 6396.
+We have been providing per-RRC MRT dump files for a long time. Those files are generated with 8-hours interval, and are available at `https://data.ris.ripe.net/rrcXX/`. The files that are available through the interface described below are published every hour and with significantly lower delay. They provide the same information as 8-hour dumps, but without redundant information, and are more conformant with RFC 6396.
 
 ## Changes in MRT File Format
 

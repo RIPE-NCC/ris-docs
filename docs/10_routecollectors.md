@@ -50,13 +50,18 @@ Historic route collectors are listed in this table:
 
 
 
-Locations are also available in dns LOC records
+Locations are also available in DNS LOC records:
+
+```shell
+dig +short LOC rrc00.ripe.net
+52 22 0.000 N 4 53 0.000 E 0.00m 1m 10000m 10m
+```
 
 ## Peer meta-data
 
 RIPEstat [has an API (rrc-info)](https://stat.ripe.net/docs/02.data-api/rrc-info.html) with the current RIS peers and their numbers of routes. Furthermore, there is a prototype with machine-readable metadata for the **multihop** peers in our [peer metadata prototype](./40_prototypes/20_peer_metadata.md).
 
-We also have a web page of peers per RRC: https://www.ris.ripe.net/peerlist/all.shtml
+We also have a web page of peers per RRC: [https://www.ris.ripe.net/peerlist/all.shtml](https://www.ris.ripe.net/peerlist/all.shtml)
 
 ## BGP Timer settings
 

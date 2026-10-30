@@ -27,7 +27,7 @@ with:
   * XX = the RRC number
   * YYYY = year
   * MM = month
-  * TYPE = the type of file, which is either **bview** (dumps) or **update** (updates)
+  * TYPE = the type of file, which is either **bview** (dumps) or **updates** (updates)
   * DD = day
   * HH = hour
   * mm = minute
@@ -37,7 +37,7 @@ Currently dumps are created every 8 hours,
 
 ## Tooling
 
-There are multiple tools that are able to parse and extract information from MRT files. This is a non-exhausitive list of the most used tooling:
+There are multiple tools that are able to parse and extract information from MRT files. This is a non-exhaustive list of the most used tooling:
   * [bgpdump](https://github.com/RIPE-NCC/bgpdump): One of the first MRT parsers, written in C
   * [CAIDA bgpstream](https://bgpstream.caida.org/): Software suite, consisting of commandline, bindings to python, C library
   * [bgpscanner](https://gitlab.com/Isolario/bgpscanner): MRT parser in C, written for speed. Part of the now-defunct Isolario project
